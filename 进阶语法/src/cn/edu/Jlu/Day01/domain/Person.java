@@ -20,6 +20,12 @@ public class Person {
                 ", age=" + age +
                 '}';
     }
+    public void eat(){
+        System.out.println("我喜欢吃面条");
+    }
+    public void eat(String name,String food){
+        System.out.println(name+"喜欢吃"+food);
+    }
 
     public String getName() {
         return name;
