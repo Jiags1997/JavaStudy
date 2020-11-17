@@ -1,10 +1,16 @@
 package cn.edu.Jlu.Day01.annotation.demo;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.lang.reflect.Method;
+
 /*
    简单的测试框架
 
  */
 public class TestCheck {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         //1.创建计算器对象
         Calculator c = new Calculator();
         //2.获取字节码文件对象
